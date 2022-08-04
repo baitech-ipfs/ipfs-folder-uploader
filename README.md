@@ -14,5 +14,5 @@ yarn
 ### 2.Upload folder
 
 ```shell
-node index.js /{LOCALPATH}
+node index.js {LOCALPATH}
 ```

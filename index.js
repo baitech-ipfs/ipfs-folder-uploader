@@ -6,7 +6,7 @@ const FormData = require('form-data');
 const _ = require('lodash');
 const ipfsPath = uuidv4();
 const fromPath = process.argv[2]
-const url = `http://183.131.193.195/api/v0/add`
+const url = `http://183.131.193.195/api/v0/add?pin=true`
 const { createLogger, format, transports } = require('winston');
 const { combine, timestamp, label, printf } = format;
 
